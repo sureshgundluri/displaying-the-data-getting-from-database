@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Topic</h1>
+    <table border="2px">
+        <tr>
+            <th>topic_name</th>
+        </tr>
+        {% for t in topics %}
+        <tr>
+            <td>{{ t.topic_name }}</td>
+        </tr>
+        {% endfor   %}
+    </table>
+</body>
+</html>
